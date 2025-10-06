@@ -70,7 +70,6 @@ O sistema executa a função correspondente:
 
 O laço continua até o usuário encerrar o programa.
 
-💻 Exemplo de Uso
 ======= MENU =======
 [1] Depositar
 [2] Sacar
