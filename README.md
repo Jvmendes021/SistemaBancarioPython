@@ -1,75 +1,83 @@
-🏦 Sistema Bancário em Python
-📋 Descrição
+<div align="center">
 
-Este projeto implementa um sistema bancário simples desenvolvido em Python, com foco em aplicar conceitos de lógica de programação, estruturas condicionais e laços de repetição.
+<h1>🏦 Sistema Bancário em Python</h1>
+
+<h2>📋 Descrição</h2>
+
+<p align="justify">
+Este projeto implementa um <b>sistema bancário simples</b> desenvolvido em <b>Python</b>, com foco em aplicar conceitos de 
+<b>lógica de programação</b>, <b>estruturas condicionais</b> e <b>laços de repetição</b>.<br><br>
 
 O sistema permite ao usuário realizar operações básicas bancárias, como:
+</p>
 
-Depósito
+<ul align="left">
+  <li>Depósito</li>
+  <li>Saque</li>
+  <li>Consulta de extrato</li>
+</ul>
 
-Saque
-
-Consulta de extrato
-
+<p align="justify">
 O código foi desenvolvido de forma didática para demonstrar como um sistema pode gerenciar operações financeiras de maneira simples e eficiente.
+</p>
 
-🚀 Funcionalidades
+---
 
-Depósito:
-Permite adicionar um valor positivo ao saldo da conta.
+<h2>🚀 Funcionalidades</h2>
 
-Saque:
-O usuário pode sacar valores dentro do limite estabelecido (R$500 por saque).
-Há também um limite diário de 3 saques.
+<ul align="left">
+  <li><b>Depósito:</b> Permite adicionar um valor positivo ao saldo da conta.</li>
+  <li><b>Saque:</b> O usuário pode sacar valores dentro do limite estabelecido (R$500 por saque). Há também um limite diário de 3 saques.</li>
+  <li><b>Extrato:</b> Exibe todas as movimentações realizadas e o saldo atual da conta.</li>
+  <li><b>Controle de erros:</b> O sistema impede depósitos e saques com valores inválidos, além de avisar sobre saldo insuficiente ou limite excedido.</li>
+</ul>
 
-Extrato:
-Exibe todas as movimentações realizadas e o saldo atual da conta.
+---
 
-Controle de erros:
-O sistema impede depósitos e saques com valores inválidos, além de avisar sobre saldo insuficiente ou limite excedido.
+<h2>🧠 Lógica do Código</h2>
 
-🧠 Lógica do Código
+<p align="justify">
+O código é baseado em <b>programação estruturada</b>, usando variáveis globais e um laço <code>while</code> 
+para manter o sistema em execução até o usuário escolher sair.
+</p>
 
-O código é baseado em programação estruturada, usando variáveis globais e um laço while para manter o sistema em execução até o usuário escolher sair.
+<h4>Principais variáveis:</h4>
+<ul align="left">
+  <li><b>saldo:</b> guarda o valor total da conta.</li>
+  <li><b>limite:</b> define o valor máximo permitido por saque.</li>
+  <li><b>extrato:</b> armazena o histórico de movimentações (depósitos e saques).</li>
+  <li><b>numero_saques:</b> controla quantos saques foram feitos no dia.</li>
+  <li><b>LIMITE_SAQUES:</b> define o número máximo de saques permitidos por sessão.</li>
+</ul>
 
-Principais variáveis:
+<p align="justify">
+<b>Estrutura principal (<code>while True</code>):</b><br>
+1. Exibe um menu com as opções disponíveis.<br>
+2. Lê a escolha do usuário.<br>
+3. Executa a operação correspondente (<code>if</code>, <code>elif</code>, <code>else</code>).<br>
+4. Exibe mensagens informativas sobre cada ação.
+</p>
 
-saldo: guarda o valor total da conta.
+---
 
-limite: define o valor máximo permitido por saque.
+<h2>🧩 Fluxo de Execução</h2>
 
-extrato: armazena o histórico de movimentações (depósitos e saques).
+<p align="justify">
+O usuário escolhe uma das opções do menu e o sistema executa a função correspondente:
+</p>
 
-numero_saques: controla quantos saques foram feitos no dia.
-
-LIMITE_SAQUES: define o número máximo de saques permitidos por sessão.
-
-Estrutura principal (while True):
-
-Exibe um menu com as opções disponíveis.
-
-Lê a escolha do usuário.
-
-Executa a operação correspondente (if, elif, else).
-
-Exibe mensagens informativas sobre cada ação.
-
-🧩 Fluxo de Execução
-
-O usuário escolhe uma das opções do menu.
-
-O sistema executa a função correspondente:
-
+<pre align="left">
 [1] → Depósito
-
 [2] → Saque
-
 [3] → Extrato
-
 [4] → Sair
+</pre>
 
+<p align="justify">
 O laço continua até o usuário encerrar o programa.
+</p>
 
+<pre align="left">
 ======= MENU =======
 [1] Depositar
 [2] Sacar
@@ -94,28 +102,39 @@ Depósito: +R$ 300.00
 
 Saldo atual: R$ 300.00
 ========================
+</pre>
 
-🧱 Tecnologias Utilizadas
+---
 
-Linguagem: Python 3
+<h2>🧱 Tecnologias Utilizadas</h2>
 
-Paradigma: Programação Estruturada
+<ul align="left">
+  <li><b>Linguagem:</b> Python 3</li>
+  <li><b>Paradigma:</b> Programação Estruturada</li>
+</ul>
 
-🎯 Objetivo Educacional
+---
 
+<h2>🎯 Objetivo Educacional</h2>
+
+<p align="justify">
 Este projeto tem como finalidade praticar:
+</p>
 
-Lógica de programação
+<ul align="left">
+  <li>Lógica de programação</li>
+  <li>Manipulação de variáveis e strings</li>
+  <li>Estruturas condicionais (<code>if/elif/else</code>)</li>
+  <li>Laços de repetição (<code>while</code>)</li>
+  <li>Interação com o usuário via terminal</li>
+</ul>
 
-Manipulação de variáveis e strings
+---
 
-Estruturas condicionais (if/elif/else)
+<h2>🧑‍💻 Autor</h2>
 
-Laços de repetição (while)
-
-Interação com o usuário via terminal
-
-🧑‍💻 Autor
-
-João Vitor Mendes
+<p><b>João Vitor Mendes</b><br>
 Projeto desenvolvido como exercício prático de Python, simulando operações bancárias reais em um ambiente controlado.
+</p>
+
+</div>
